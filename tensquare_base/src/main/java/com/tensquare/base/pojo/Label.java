@@ -8,6 +8,8 @@ import java.io.Serializable;
 @Entity
 @Table(name = "tb_label")
 public class Label implements Serializable{
+
+    //我是本地改动
     @Id
     private String id;//
     private String labelname;//标签名称
