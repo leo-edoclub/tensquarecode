@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Table(name="tb_article")
 public class Article implements Serializable{
 
-	//我是新的分支
+	// 我改动了这个代码
 	@Id
 	private String id;//ID
 
